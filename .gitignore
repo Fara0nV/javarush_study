@@ -1,3 +1,22 @@
+# Intellij
+.idea/*
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+
+# Build Artifacts
+.gradle/
+build/
+target/
+
+# Log directory
+logs/
+
 # Compiled class file
 *.class
 

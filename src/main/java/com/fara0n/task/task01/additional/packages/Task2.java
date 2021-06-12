@@ -8,10 +8,10 @@ public class Task2 {
         System.out.println(VENDOR);
 
         String dream = "I'll have this car";
-        printMyDreamMoreTimes(dream, 7, VENDOR);
+        printMyDreamMoreTimes(dream, 7);
     }
 
-    public static void printMyDreamMoreTimes(String dream, int count, String VENDOR) {
+    public static void printMyDreamMoreTimes(String dream, int count) {
         for (int i = 0; i < count; i++) {
             System.out.println(VENDOR);
             System.out.println(dream);

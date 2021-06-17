@@ -7,7 +7,7 @@ package com.fara0n.task.task01.task0127;
 public class Solution {
     public static void main(String[] args) {
         int result = sqr(5);
-        System.out.println(result);
+        System.out.println("Answer = " +result);
     }
 
     public static int sqr(int a) {
